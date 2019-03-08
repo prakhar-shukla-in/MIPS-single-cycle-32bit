@@ -1,5 +1,6 @@
 # MIPSsinglecycle32bit
 Required project to complete advance computer architecture course in BITS Pilani KK Birla Goa Campus
+<pre>
 Instructions that I've done:- addi, ori, add, sub, beq, sw ,lw, j, sub, mult, div, mfhi, mflo, sll
 Instruction That I've not done:- madd, msub, mtlo, mthi, jalr
 NOTE: wd0 = low register(Lo)
@@ -30,7 +31,7 @@ ________________________________________________________________________________
 
 All these instructions are feeded into instruction memory(in hex format) using a external file "memfile.dat".
 To run the "mips.v" file, insure that "memfile.dat" is kept in same folder. 
-Contents of "memfile.dat" are:
+Contents of "memfile.dat" are:-
 
 20020005
 2003000c
@@ -50,3 +51,4 @@ AC650044
 00004010
 00004012
 00061880
+</pre>
